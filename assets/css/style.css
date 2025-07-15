@@ -792,8 +792,11 @@ button {
 .hi-techfest-2022 {
   /* background-image: url("https://drive.google.com/uc?export=view&id=1LMAUZ-t18zktQTIW8cO1UpoG8iTA2O7F"); */
 }
-.hi-techfest{
+.hi-techfest {
   background-image: url("https://techfest.himtibinus.or.id/assets/gear.png")
+}
+.hi-ask-himti {
+  background-image: url("/assets/img/man-svgrepo-com.png");
 }
 
 @media (min-width: 678px) {

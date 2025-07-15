@@ -47,10 +47,10 @@ $MENU_ITEMS = [
         'icon_fill' => 'bi bi-chat-quote-fill',
         'category' => 'page',
     ],
-    // [
-    //     'label' => 'Join Us!',
-    //     'href' => 'http://bit.ly/CavisRegistration',
-    //     'icon' => 'bi bi-person-plus',
-    //     'category' => 'page',
-    // ],
+    [
+        'label' => 'AskHimti',
+        'href' => '/ask-himti.php',
+        'icon' => 'hi hi-ask-himti',
+        'category' => 'page',
+    ],
 ];
