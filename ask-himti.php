@@ -1,23 +1,46 @@
+<?php
+include('components/material-items.php')
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-<?php
-        $USE_BOOTSTRAP = true;
-        $TITLE = 'Contact';
-        require('components/head.php');
+    <?php
+    $USE_BOOTSTRAP = true;
+    $TITLE = 'Ask Us';
+    require('components/head.php');
     ?>
     <link rel="stylesheet" href="assets/css/contact.css">
 </head>
 
 <body>
 
-    <?php 
+    <?php
     require_once('components/navbar.php'); ?>
 
     <div id="content-container">
-        <!-- content -->
+        <div id="content-section">
+            <div id="content-left d-flex">
+                <?php
+                if ($links != NULL && count($links) > 0) {
+                    foreach ($links as $link) {
+                        echo '
+                        <p
+                        id="', $link["id"],'"
+                        onclick=","
+                        class=","
+                        >',
+                        $link["name"],'
+                        </p>';
+                    }
+                }
+                ?>
+            </div>
+            <div id="content-center"></div>
+            <div id="content-right">
 
+            </div>
+        </div>
     </div>
 
     <?php require_once('components/footer.php') ?>
