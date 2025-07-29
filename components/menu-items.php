@@ -49,7 +49,7 @@ $MENU_ITEMS = [
     ],
     [
         'label' => 'AskHimti',
-        'href' => '/ask-himti.php',
+        'href' => 'https://askhimti.vercel.app/',
         'icon' => 'hi hi-ask-himti',
         'category' => 'page',
     ],
